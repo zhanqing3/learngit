@@ -6,9 +6,12 @@ git add readme.txt file1.txt
 git commit -m "tips"
 git status
 git diff
+git diff HEAD -- readme.txt
+//将当前分支库里面的readme.txt 与工作区中的readme.txt 做比较
 git log
 git log --pretty=oneline
 cat readme.txt
 git reset --hard HEAD^
 git reset --hard 03dew2
 git reflog
+
