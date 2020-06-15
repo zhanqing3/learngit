@@ -1,0 +1,14 @@
+git config --global user.name "zhanqing3"
+git config --global user.email "zhanqing3@foxmail.com"
+git init  
+//Initialized empty Git repository 初始化的空git存储库
+git add readme.txt file1.txt 
+git commit -m "tips"
+git status
+git diff
+git log
+git log --pretty=oneline
+cat readme.txt
+git reset --hard HEAD^
+git reset --hard 03dew2
+git reflog
